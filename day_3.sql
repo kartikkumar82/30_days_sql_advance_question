@@ -1,6 +1,6 @@
--- SQL Interview Question Day 42/100
+-- SQL Interview Question Day 3/30
 
--- EY Data Analyst SQL question.
+-- EY Data Analyst SQL question. 
 -- SQL Mentor Question id 400
 
 /*
@@ -108,4 +108,5 @@ customers c
 ON c.customer_id = t.customer_id
 WHERE t.transaction_date BETWEEN '2023-09-01' AND '2023-09-30' 
 GROUP BY 1
+
 HAVING COUNT(*) >= 5;
