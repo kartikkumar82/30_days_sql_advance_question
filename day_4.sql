@@ -1,4 +1,4 @@
--- Day 43/100 SQL Challenge
+-- Day 4/30 SQL Question Challenge
 
 DROP TABLE IF EXISTS Rides;
 DROP TABLE IF EXISTS Drivers;
@@ -157,4 +157,5 @@ SELECT
 FROM 
 	main
 WHERE 
+
 	rnk = 1;
