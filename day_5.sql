@@ -1,3 +1,5 @@
+--Question 5/30 Advance SQL Challenges
+
 DROP TABLE IF EXISTS Employee;
 CREATE TABLE employees(employee_id int PRIMARY KEY, team_id INT);
 
@@ -35,3 +37,4 @@ SELECT
 	COUNT(team_id) OVER(PARTITION BY team_id) as team_size
 FROM employees
 ORDER BY 1;
+
