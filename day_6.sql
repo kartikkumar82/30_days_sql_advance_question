@@ -1,4 +1,4 @@
--- Day 41/100 SQL Challenge
+-- Day 6/30 SQL Question Challenge
 
 
 DROP TABLE IF EXISTS salaries;
@@ -82,4 +82,5 @@ SELECT
 	ROUND(
 			(salary) * (1 - tax_slab::numeric/100)
 		) as net_salary
+
 FROM after_tax
