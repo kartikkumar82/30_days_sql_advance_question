@@ -1,4 +1,4 @@
--- Day 40/100
+-- Day 7/30
 -- Amazon 
 
 
@@ -76,4 +76,5 @@ SELECT
 				END)::NUMERIC / (SELECT COUNT(*) FROM delivery)*100
 		,2)
 FROM delivery_cte
+
 WHERE rn = 1
