@@ -1,4 +1,4 @@
--- Day 39/40 SQL Challeng
+-- Day 8/30 SQL Question Challeng
 
 -- AirBnb
 -- Problem statement
@@ -53,5 +53,6 @@ SELECT
 	id
 FROM numbers
 WHERE id NOT IN (SELECT customer_id FROM customers)
+
 
 
