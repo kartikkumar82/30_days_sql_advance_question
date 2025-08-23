@@ -1,4 +1,4 @@
--- Day 38/100 DAYS SQL CHALLENGE
+-- Day 9/30 DAYS SQL QUESTION CHALLENGE
 
 -- Walmart SQL Question
 
@@ -36,4 +36,5 @@ FROM
 FROM transactions) as a
 WHERE rn = 1
 ORDER BY 1;
+
 
