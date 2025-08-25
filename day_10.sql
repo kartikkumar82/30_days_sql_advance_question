@@ -1,4 +1,4 @@
--- Day 37/100
+-- Day 10/30
 -- Flipkart
 
 Create table If Not Exists Logs (Id int, Num int);
@@ -40,4 +40,5 @@ FROM
 WHERE 	
 	num = first_num
 	AND
+
 	first_num = second_num
