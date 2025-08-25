@@ -1,4 +1,4 @@
--- Day 35/100 days 
+-- Day 11/30 days 
 
 /*
 Problem: Find the Products with Sales on Consecutive Days
@@ -63,4 +63,5 @@ FROM (
         LAG(SaleDate) OVER (PARTITION BY ProductID ORDER BY SaleDate) AS PrevDate
     FROM Sales
 ) t
+
 WHERE ABS(PrevDate - SaleDate) = 1
