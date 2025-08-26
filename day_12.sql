@@ -1,5 +1,5 @@
--- Day 34/100
--- Q5. Delete Duplicate Records but make sure to keep the distinct records
+-- Day 12/30
+-- Q. Delete Duplicate Records but make sure to keep the distinct records
 
 
 
@@ -56,4 +56,5 @@ FROM Employees
 )
 
 DELETE FROM Employees
+
 WHERE ctid IN (SELECT ctid FROM cte WHERE rn > 1);
