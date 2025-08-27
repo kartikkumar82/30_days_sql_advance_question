@@ -1,4 +1,4 @@
-- Day 32/100 Days Challenge
+- Day 13/30 Days Challenge
 -- Q1. Write SQL query to find median salary 
 -- If we add 1 more record with salary 91,000 what will be median?
 
@@ -83,4 +83,5 @@ as
 SELECT 
 	ROUND(AVG(salary),2) as midden_salary
 FROM order_salary
+
 WHERE ABS(asc_order - desc_order) = 1
