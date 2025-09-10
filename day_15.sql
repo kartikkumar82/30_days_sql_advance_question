@@ -1,6 +1,4 @@
-
-
--- Day 28/100
+-- Day 15/30
 
 DROP TABLE IF EXISTS sales;
 CREATE TABLE sales (id SERIAL,
@@ -66,3 +64,4 @@ WHERE
 	AND
 	EXTRACT(DOW FROM sale_date) IN (6, 0)
 GROUP BY 1
+
