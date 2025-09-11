@@ -1,4 +1,4 @@
--- 25/100 sql challenge
+-- 16/30 sql challenge
 
 DROP TABLE IF EXISTS Friends;
 CREATE TABLE Friends (
@@ -72,4 +72,5 @@ FROM
 	        AND r.rating > 85
 	    )
 )
+
 
