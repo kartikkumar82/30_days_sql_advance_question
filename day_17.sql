@@ -1,4 +1,4 @@
--- 24/100 days
+-- 17/30 days 
 
 -- Write SQL query to find average processing time by each machine!
 
@@ -39,4 +39,5 @@ FROM
 	GROUP BY 1,2
 )as t1
 GROUP BY 1
+
 ORDER BY 1
