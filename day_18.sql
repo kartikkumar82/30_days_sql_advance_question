@@ -1,4 +1,4 @@
--- Day 16/30 Days SQL Challenge
+-- Day 18/30 Days SQL Challenge
 
 
 -- You are working with a table called orders that tracks customer orders with their order dates and amounts. 
@@ -49,4 +49,5 @@ FROM orders as o1
 WHERE 
     o1.order_date = (SELECT MAX(order_date) 
                     FROM orders as o2 
+
                     WHERE o2.customer_id = o1.customer_id)
