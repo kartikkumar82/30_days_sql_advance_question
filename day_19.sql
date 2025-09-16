@@ -1,3 +1,5 @@
+-- DAY 19/30 SQL CHALLENGE
+
 DROP TABLE IF EXISTS cinemas;
 CREATE TABLE cinemas
     (id SERIAL, seat_id INT);
@@ -34,4 +36,5 @@ WHERE
 AND
 	prev_seat_id = 1
 AND
+
 	nxt_seat_id = 1
