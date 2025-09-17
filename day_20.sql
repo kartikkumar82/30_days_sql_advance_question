@@ -1,4 +1,4 @@
--- day 23/100
+-- day 20/30 SQL CHALLENGE 
 -- spotify
 
 DROP TABLE IF EXISTS spotify;
@@ -88,3 +88,4 @@ SELECT
      week_start_day
 FROM growth_ratio    
 WHERE growth_ratio > 300;
+
