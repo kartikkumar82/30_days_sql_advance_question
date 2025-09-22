@@ -1,4 +1,4 @@
--- 22/100 Days SQL Challenge
+-- 21/30 Days SQL Challenge
 
 -- Given a user_activity table, write a SQL query to find all users who have logged in on at least 3 consecutive days.
 
@@ -50,4 +50,5 @@ SELECT
 	DISTINCT user_id
 FROM steaks
 WHERE sum_of_day >= 2
+
 
