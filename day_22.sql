@@ -1,4 +1,4 @@
--- Day 19/100 days challenge
+-- Day 22/30 days challenge
 
 -- Spotify Data Analyst Interview question
 
@@ -80,3 +80,4 @@ FROM user_listen_time
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 1
+
