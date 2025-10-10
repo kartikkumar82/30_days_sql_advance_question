@@ -1,4 +1,4 @@
--- Day 11/30 days 
+-- Day 11/30 SQL Advance Questions
 
 /*
 Problem: Find the Products with Sales on Consecutive Days
@@ -65,3 +65,4 @@ FROM (
 ) t
 
 WHERE ABS(PrevDate - SaleDate) = 1
+
